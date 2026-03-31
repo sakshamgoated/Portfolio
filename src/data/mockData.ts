@@ -30,12 +30,12 @@ export const blogPosts: BlogPost[] = [
 export const projects: Project[] = [
   {
     id: '1',
-    title: 'E-Commerce Platform',
-    description: 'A full-stack e-commerce solution with user authentication, payment processing, and admin dashboard.',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Stripe', 'JWT'],
-    github: 'https://github.com/sakshamgoated',
-    demo: 'https://your-ecommerce-demo.com',
-    image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800'
+    title: 'GlowUp AI Chatbot',
+    description: 'A full-stack AI customer support chatbot for a luxury skincare brand. Powered by Llama 3.3 70B with real-time order tracking, product recommendations, and chat history via Supabase.',
+    technologies: ['Next.js', 'TypeScript', 'Groq API', 'Supabase', 'Tailwind CSS'],
+    github: 'https://github.com/sakshamgoated/glowup-Chatbot',
+    demo: 'https://glowup-chatbot.vercel.app',
+    image: 'https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: '2',
