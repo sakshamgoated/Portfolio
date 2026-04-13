@@ -1,31 +1,4 @@
-import { BlogPost, Project, Skill } from '../types';
-
-export const blogPosts: BlogPost[] = [
-  {
-    id: '1',
-    title: 'Building Scalable React Applications',
-    excerpt: 'Learn how to structure your React applications for maintainability and performance at scale.',
-    date: '2024-01-15',
-    readTime: '8 min read',
-    tags: ['React', 'TypeScript', 'Architecture']
-  },
-  {
-    id: '2',
-    title: 'The Future of Web Development',
-    excerpt: 'Exploring emerging trends and technologies that will shape the future of web development.',
-    date: '2024-01-10',
-    readTime: '6 min read',
-    tags: ['Web Development', 'Trends', 'Technology']
-  },
-  {
-    id: '3',
-    title: 'Optimizing Performance in Modern Apps',
-    excerpt: 'Essential techniques for improving application performance and user experience.',
-    date: '2024-01-05',
-    readTime: '10 min read',
-    tags: ['Performance', 'Optimization', 'UX']
-  }
-];
+import { Project, Skill } from '../types';
 
 export const projects: Project[] = [
   {

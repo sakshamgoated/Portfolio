@@ -64,9 +64,9 @@ const AboutPage: React.FC = () => {
             </h2>
             <div className="flex flex-col gap-4 font-bold uppercase text-sm w-full pt-4">
               {[
-                { icon: MapPin, text: "Your City, Country", label: "LOC" },
-                { icon: Mail, text: "your.email@example.com", label: "MAIL" },
-                { icon: Phone, text: "+1 (555) 123-4567", label: "COMM" }
+                { icon: MapPin, text: "Noida, India", label: "LOC" },
+                { icon: Mail, text: "Samsak577@gmail.com", label: "MAIL" },
+                { icon: Phone, text: "+91 7505520741", label: "COMM" }
               ].map(({ icon: Icon, text, label }, index) => (
                 <div key={index} className="flex justify-between items-center brutal-border p-3 hover-invert">
                   <span className="flex items-center gap-2">

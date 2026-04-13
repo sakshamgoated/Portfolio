@@ -110,7 +110,7 @@ const ProjectsPage: React.FC = () => {
          <p className="text-sm font-bold uppercase max-w-lg mb-8">
             Always ready to execute new processes and engineer functional solutions. Let's initiate the next loop.
          </p>
-         <a href="mailto:your.email@example.com" className="brutal-box py-4 px-8 text-lg font-bold uppercase hover-invert cursor-pointer flex items-center gap-3">
+         <a href="mailto:Samsak577@gmail.com" className="brutal-box py-4 px-8 text-lg font-bold uppercase hover-invert cursor-pointer flex items-center gap-3">
             <span className="blink">{'>'}</span> START_CONVERSATION.SH
          </a>
       </div>
