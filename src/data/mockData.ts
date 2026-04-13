@@ -12,12 +12,12 @@ export const projects: Project[] = [
   },
   {
     id: '2',
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates and team collaboration features.',
-    technologies: ['React', 'TypeScript', 'Firebase', 'Material-UI'],
-    github: 'https://github.com/sakshamgoated/task-manager',
-    demo: 'https://your-task-manager.com',
-    image: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800'
+    title: 'RDL Packaging',
+    description: 'A B2B product website for a packaging machinery company, featuring an AI chatbot, product catalog with detailed specs, and a contact system with WhatsApp integration.',
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Three.js', 'Groq API', 'Framer Motion'],
+    github: 'https://github.com/sakshamgoated/rdl-packaging-v2',
+    demo: 'https://rdl-packaging-v2.vercel.app',
+    image: 'https://images.pexels.com/photos/1267338/pexels-photo-1267338.jpeg?auto=compress&cs=tinysrgb&w=800'
   },
   {
     id: '3',
