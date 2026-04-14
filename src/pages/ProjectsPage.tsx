@@ -108,7 +108,7 @@ const ProjectsPage: React.FC = () => {
             </span>
          </h2>
          <p className="text-sm font-bold uppercase max-w-lg mb-8">
-            Always ready to execute new processes and engineer functional solutions. Let's initiate the next loop.
+            Got a project in mind or just want to say hi? I'm always open to chat.
          </p>
          <a href="mailto:Samsak577@gmail.com" className="brutal-box py-4 px-8 text-lg font-bold uppercase hover-invert cursor-pointer flex items-center gap-3">
             <span className="blink">{'>'}</span> START_CONVERSATION.SH

@@ -50,7 +50,7 @@ const AboutPage: React.FC = () => {
           </span>
         </h1>
         <p className="mt-6 text-sm md:text-base font-bold uppercase max-w-2xl reveal-left">
-          Passionate developer with a love for creating innovative solutions, learning cutting-edge technologies, and building experiences that make a difference without illusion.
+          I like building things for the web. Here's a bit more about me, what I work with, and how to reach me.
         </p>
       </div>
 
@@ -86,10 +86,10 @@ const AboutPage: React.FC = () => {
               <Target className="w-6 h-6"/> JOURNEY_LOG
             </h3>
             <p className="text-sm font-bold text-justify uppercase leading-tight">
-              I'm a passionate full-stack developer with over 3 years of experience building 
-              innovative web applications. I thrive on turning complex problems into elegant, 
-              functional solutions. When I'm not coding, you'll find me exploring emerging 
-              technologies, contributing to open source, or sharing knowledge.
+              I've been building websites and web apps for a while now. I work with
+              React, Next.js, Node, Python, and whatever else gets the job done.
+              I like learning new things, picking up freelance projects, and
+              figuring out how stuff works under the hood.
             </p>
           </div>
         </div>
@@ -123,7 +123,7 @@ const AboutPage: React.FC = () => {
             </span>
           </h2>
           <p className="mt-2 text-sm font-bold uppercase reveal">
-            A comprehensive toolkit of modern technologies
+            Tools and technologies I use regularly
           </p>
         </div>
         

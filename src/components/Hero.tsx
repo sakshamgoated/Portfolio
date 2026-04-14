@@ -60,8 +60,8 @@ const Hero: React.FC = () => {
 
           <div className="mt-16 md:mt-24">
              <p className="text-sm md:text-base font-bold text-justify uppercase mb-8 leading-tight max-w-sm">
-              Digital brutalism meets functional code. A full-stack developer engineering robust architectures, while traditional interfaces are overshadowed.
-              Every line recorded, perfection demanded, performance optimized without illusion.
+              I'm a full-stack developer who builds web apps that work well and look good.
+              I focus on writing clean code, solving real problems, and shipping things that actually matter.
             </p>
 
             <div className="flex flex-col space-y-4 font-bold uppercase text-sm w-full border-t-2 border-cy-dark pt-4">
