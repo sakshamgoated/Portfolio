@@ -88,6 +88,7 @@ const AboutPage: React.FC = () => {
             <p className="text-sm font-bold text-justify uppercase leading-tight">
               I've been building websites and web apps for a while now. I work with
               React, Next.js, Node, Python, and whatever else gets the job done.
+              I'm also currently pursuing a BS in Data Science from IIT Madras.
               I like learning new things, picking up freelance projects, and
               figuring out how stuff works under the hood.
             </p>
