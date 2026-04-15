@@ -1,5 +1,5 @@
 import React from 'react';
-import { User, MapPin, Mail, Phone, Download, Code, Target, Award } from 'lucide-react';
+import { User, MapPin, Mail, Phone, Download, Code, Target, Award, GraduationCap } from 'lucide-react';
 import { skills } from '../data/mockData';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 
@@ -10,7 +10,6 @@ const AboutPage: React.FC = () => {
     frontend: skills.filter(skill => skill.category === 'frontend'),
     backend: skills.filter(skill => skill.category === 'backend'),
     tools: skills.filter(skill => skill.category === 'tools'),
-    other: skills.filter(skill => skill.category === 'other'),
   };
 
   const SkillBar: React.FC<{ skill: { name: string; level: number } }> = ({ skill }) => (
@@ -128,9 +127,9 @@ const AboutPage: React.FC = () => {
           </p>
         </div>
         
-        <div className="w-full grid grid-cols-1 md:grid-cols-2">
+        <div className="w-full grid grid-cols-1 md:grid-cols-3">
            {Object.entries(skillCategories).map(([category, categorySkills], index) => (
-             <div key={category} className={`p-4 sm:p-8 border-cy-dark ${index % 2 === 0 ? 'md:border-r-2' : ''} ${(index === 0 || index === 1) ? 'border-b-2' : ''} reveal`}>
+             <div key={category} className={`p-4 sm:p-8 border-b-2 border-cy-dark ${index < 2 ? 'md:border-r-2' : ''} reveal`}>
                <h3 className="font-heading text-2xl font-bold uppercase mb-6 flex items-center gap-3">
                  <Award className="w-6 h-6"/> {category}_DEV
                </h3>
@@ -141,6 +140,24 @@ const AboutPage: React.FC = () => {
                </div>
              </div>
            ))}
+        </div>
+
+        {/* Education & Certifications */}
+        <div className="w-full px-4 sm:px-8 py-10 border-b-2 border-cy-dark">
+          <h3 className="font-heading text-2xl font-bold uppercase mb-6 flex items-center gap-3 reveal">
+            <GraduationCap className="w-6 h-6"/> EDUCATION & CERTIFICATIONS
+          </h3>
+          <div className="flex flex-col gap-4 reveal">
+            <div className="brutal-border p-4 hover-invert group">
+              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-2">
+                <div>
+                  <span className="font-heading text-lg font-bold uppercase">BS in Data Science</span>
+                  <p className="text-sm font-bold uppercase mt-1">IIT Madras</p>
+                </div>
+                <span className="brutal-border px-3 py-1 text-xs font-bold uppercase w-fit">Ongoing</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
